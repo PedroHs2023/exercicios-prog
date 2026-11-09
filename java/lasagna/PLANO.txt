@@ -1,0 +1,22 @@
+
+
+tenho 4 metodos
+
+expectedMinutesInOven() ele nao recebe nenhum 
+parametro porem retorna quanto tempo a lasanha fica pronta 
+vai ser uma variavel do tipo inteiro com valor 40 minutos
+
+remainingMinutesInOven() quanto tempo falta para ficar pronta a lasanha 
+o metodo recebe os minutos atuais e me devolve quantos minutos
+ela precisa ficar no forno entao eu vou ter que pegar esse meu
+parametro e diminuir do retorno do metodo 1 assim denvolvendo 
+o tempo que precisa ficar no forno vai ser 2 variaveis do tipo inteiro 
+uma do paremetro que vou receber e outra que vai guardar o resultado da subtracao
+formula expectedMinutesInOven - Parametro do remainingMinutesInOven()
+
+preparationTimeInMinutes() recebe um parametro INT com o numero de camadas dentro do metodo
+terei que fazer uma multiplicacao que vai ser o numero de camadas multiplicado por 2
+e retornar quanto tempo eu demorei para preparar a lasanha
+
+totalTimeInMinutes() Nesse metodo chamo o parametro do metodo 2 e o resultado do metodo 3 e retorno a soma 
+dos dois valores 

@@ -1,0 +1,81 @@
+TRILHA JAVA - EXERCISM
+======================
+
+Baixar exercício:  exercism download --track=java --exercise=<nome>
+Rodar os testes:   cd java/<nome> && ./gradlew test
+Enviar:            exercism submit   (dentro da pasta do exercício)
+
+REGRAS (valem para TODOS os exercícios)
+---------------------------------------
+1. Leia o README.md e os testes ANTES de abrir o arquivo de código.
+2. Escreva em PLANO.txt (na pasta do exercício), em português:
+   - o que entra, o que sai
+   - os passos em linguagem humana
+   - quais casos de borda os testes cobrem
+3. Exercício com laço aninhado: faça o TESTE DE MESA no papel primeiro.
+   Monte uma tabela com o valor de i, j e das variáveis a cada volta.
+   Se você não consegue prever a saída no papel, não está pronto pra codar.
+4. Travou? Tente por 20 min antes de pedir ajuda. Quando pedir, leve o que
+   tentou e onde exatamente travou. "Não funciona" não é pergunta.
+5. Depois de passar nos testes, veja 2 soluções da comunidade e anote
+   1 coisa que você faria diferente.
+
+Marque [x] ao terminar.
+
+FASE 1 - Sintaxe Java (você já sabe lógica em C, aqui é traduzir)
+-----------------------------------------------------------------
+[x] hello-world
+[x] lasagna                  (métodos, retorno)
+[ ] annalyns-infiltration    (booleanos)
+[ ] cars-assemble            (if/else, números)
+[ ] leap                     (condições combinadas)
+[ ] two-fer                  (String)
+
+FASE 2 - Laço simples (base pro seu ponto fraco)
+------------------------------------------------
+[ ] bird-watcher             (arrays + for)
+[ ] squeaky-clean            (percorrer String char por char)
+[ ] difference-of-squares    (acumuladores)
+[ ] raindrops
+[ ] hamming                  (dois arrays, um índice)
+[ ] collatz-conjecture       (while: quando parar?)
+[ ] sum-of-multiples         <- primeiro laço aninhado "escondido"
+[ ] armstrong-numbers
+
+FASE 3 - LAÇO ANINHADO (o centro da trilha - não pule)
+------------------------------------------------------
+Antes de cada um: responda no PLANO.txt
+  - quem é o laço de fora e quem é o de dentro? por quê nessa ordem?
+  - quantas vezes o laço de dentro roda no total?
+[ ] pascals-triangle
+[ ] diamond
+[ ] matrix
+[ ] saddle-points
+[ ] minesweeper
+[ ] spiral-matrix            (o chefão: controle de limites)
+
+FASE 4 - Coleções e Strings
+---------------------------
+[ ] pangram
+[ ] isogram
+[ ] word-count               (Map)
+[ ] anagram
+[ ] scrabble-score
+[ ] acronym
+[ ] rotational-cipher
+
+FASE 5 - Orientação a objetos (onde o Java se diferencia do C)
+--------------------------------------------------------------
+[ ] elons-toys               (classes, estado)
+[ ] need-for-speed
+[ ] remote-control-competition (interfaces)
+[ ] wizards-and-warriors     (herança)
+[ ] calculator-conundrum     (exceções)
+[ ] robot-name
+
+FASE 6 - Algoritmos
+-------------------
+[ ] prime-factors
+[ ] sieve
+[ ] binary-search
+[ ] flatten-array            (recursão)
