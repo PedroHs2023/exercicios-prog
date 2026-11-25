@@ -1,5 +1,5 @@
 
-
+Lasagna.java
 tenho 4 metodos
 
 expectedMinutesInOven() ele nao recebe nenhum 
@@ -20,3 +20,6 @@ e retornar quanto tempo eu demorei para preparar a lasanha
 
 totalTimeInMinutes() Nesse metodo chamo o parametro do metodo 2 e o resultado do metodo 3 e retorno a soma 
 dos dois valores 
+
+
+

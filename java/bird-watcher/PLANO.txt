@@ -1,0 +1,33 @@
+Tem 6 metodos
+
+1 - BirdWatcher.getLastWeek()
+    recebe a lista(Array) de passaros
+    return contagem de passaros da ultima semana 
+    
+
+
+2 - BirdWatcher.getToday()
+    receber a lista(Array) de passaros 
+    return o numero de passaros que me visitaram hj
+
+
+3 - BirdWatcher.incrementTodaysCount()
+    receber a lista(Array) de passaros 
+    return contagem de hj
+
+
+4 - BirdWatcher.hasDayWithoutBirds()
+    receber a lista(Array) de passaros 
+    return true or false
+    vai retornar se caso houver 1 dia sem passaraos visitantes
+    percorrer o array e verificar se tem algum numero que seja = 0
+
+
+5 - BirdWatcher.getCountForFirstDays()
+    receber a lista(Array) de passaros 
+    return o numero de passaos que visitaram nos primeiros dias
+
+
+6 - BirdWatcher.getBusyDays()
+    receber a lista(Array) de passaros 
+    return o numero de dias que tem mais movimentacao de passaro onde np >= 5

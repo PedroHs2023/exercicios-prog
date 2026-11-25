@@ -19,16 +19,16 @@ REGRAS (valem para TODOS os exercícios)
    tentou e onde exatamente travou. "Não funciona" não é pergunta.
 5. Depois de passar nos testes, veja 2 soluções da comunidade e anote
    1 coisa que você faria diferente.
-
+sempre rodas o comando chmod +x gradlew para ter a permicao de executar
 Marque [x] ao terminar.
 
 FASE 1 - Sintaxe Java (você já sabe lógica em C, aqui é traduzir)
 -----------------------------------------------------------------
 [x] hello-world
 [x] lasagna                  (métodos, retorno)
-[ ] annalyns-infiltration    (booleanos)
-[ ] cars-assemble            (if/else, números)
-[ ] leap                     (condições combinadas)
+[x] annalyns-infiltration    (booleanos)
+[x] cars-assemble            (if/else, números)
+[x] leap                     (condições combinadas)
 [ ] two-fer                  (String)
 
 FASE 2 - Laço simples (base pro seu ponto fraco)
