@@ -1,0 +1,29 @@
+2 metodos
+
+1 - CarsAssemble.productionRatePerHour()
+    Recebe um valor da velocidade inteiro 
+    retorna um valor da taxa de producao double
+    tenho que levar em consideracao a velocidade e a taxa de sucesso
+    serao varios if/else com cada taxa de sucesso
+        se a velocidade está entre 1 e 4, a taxa é 100%    
+        se a velocidade está entre 5 e 8, a taxa é 90%
+        se a velocidade está em 9, a taxa é 80%
+        se a velocidade está em 10, a taxa é 77%
+        se a velocidade está em 0, a taxa é 0% profissionalmente vale apena colocar
+        como um if ja q ele e um caso que pode acabar caindo entao tratar ele seria a coisa
+        certa a se fazer
+    Velocidade * 221 = numero produzido
+    numero produzido * pela taxa de sucesso me devolve o taxa de producao de carros em double
+
+
+2 - CarsAssemble.workingItemsPerMinute()
+    Recebe valor inteiro da velocidade
+    retorna valor inteiro de carros funcionais
+    Converter o hora em minuto 
+    chamo o metodo productionRatePerHour() e divido de 60 minutos me dando o valor de carros por minuto
+    e corto a parte decimal
+
+    6 - 1326 * 0,90 = 1,193.4 carros sem defeito
+    1,193.4 / 60
+     
+  
