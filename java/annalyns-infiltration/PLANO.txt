@@ -1,0 +1,43 @@
+AnnalynsInfiltration
+
+4 Metodos
+
+1 - AnnalynsInfiltration.canFastAttack() 
+    Vai receber um booleano boolean knightIsAwake
+    Vai devolver um booleano
+    Vai acontece se o Cavaleiro estiver dormindo entao
+    boolean knightIsAwake = false; entao o metodo retorna true
+    
+
+2 - AnnalynsInfiltration.canSpy()
+    Vai receber Tres valores booleanos
+        boolean knightIsAwake ;
+        boolean archerIsAwake ;
+        boolean prisonerIsAwake ;
+    Vai devolver 1 valor booleano
+    Vai acontecer se um deles estiver estiver acordado
+    Com essa configuracao me retorna True
+    knightIsAwake ou archerIsAwake ou prisonerIsAwake
+
+3 - AnnalynsInfiltration.canSignalPrisoner()
+    Vai receber dois valores booleanos
+        boolean archerIsAwake
+        boolean prisonerIsAwake
+    Vai devolver 1 valor booleano
+    Vai devolver True caso o Arqueiro esteja dormindo 
+    Essa configuracao tambem me devolve o metodo true
+    !archerIsAwake and prisionerIsAwake 
+
+4 - AnnalynsInfiltration.canFreePrisoner()
+    Vai receber 4 valores booleanos
+        boolean knightIsAwake ;
+        boolean archerIsAwake ;
+        boolean prisonerIsAwake ;
+        boolean petDogIsPresent ;
+    Vai devolver apenas 1 valor booleano 
+    Vai acontecer apenas se ela estiver com o cachorro
+    devolve true dentro do metodo
+    knightIsAwake ou archerIsAwake ou prisonerIsAwake ou !petDogIsPresent 
+    Maneira 1 (com cachorro): petDogIsPresent e !archerIsAwake
+    Maneira 2 (sem cachorro): !petDogIsPresent e !archerIsAwake e prisonerIsAwake e !knightIsAwake
+    (petDogIsPresent e !archerIsAwake) ou (!petDogIsPresent e !archerIsAwake e prisonerIsAwake e !knightIsAwake)
