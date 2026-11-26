@@ -29,7 +29,7 @@ FASE 1 - Sintaxe Java (você já sabe lógica em C, aqui é traduzir)
 [x] annalyns-infiltration    (booleanos)
 [x] cars-assemble            (if/else, números)
 [x] leap                     (condições combinadas)
-[ ] two-fer                  (String)
+[x] two-fer                  (String)
 
 FASE 2 - Laço simples (base pro seu ponto fraco)
 ------------------------------------------------
