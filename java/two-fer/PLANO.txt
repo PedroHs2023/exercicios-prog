@@ -1,0 +1,12 @@
+1. Assinatura do método:
+- Nome: twofer
+- Recebe: uma String (name)
+- Devolve: uma String (a frase final)
+
+2. Condição:
+- Se name for igual a null (name == null), o texto do meio vira "you".
+- Caso contrário (se tiver um nome), o texto do meio usa o próprio valor de name.
+
+3. Como montar a frase (Concatenação em Java):
+- Em Java, juntamos textos usando o sinal de mais (+), chamado de concatenação.
+- Estrutura: "One for " + textoDoMeio + ", one for me."
